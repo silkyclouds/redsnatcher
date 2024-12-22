@@ -1,0 +1,21 @@
+{
+  "redacted_api_key": "YOUR_API_KEY",  
+  "redacted_api_url": "https://redacted.sh/ajax.php",  
+  "user_id": "YOUR_USERID_HERE",  
+
+  "log_level": "DEBUG",  
+  "db_path": "redsnatcher.db",  
+  "download_torrents": true,  
+  "artist_torrents_download_path": "./artists/",
+  "formats": ["FLAC", "MP3"],
+  "download_release_types": ["Album", "Single", "EP", "Anthology"],
+  "media": ["WEB", "CD", "Vinyl"],
+  "re_download_snatched": false,
+  "use_freeleech_tokens_when_available": true,
+  "snatch_freeleech_only": false,
+  "privilege_releases_with_most_tracks": true,
+  "maximum_snatched_torrent_size": 1000,
+
+  "daemon_host": "0.0.0.0",
+  "daemon_port": 56789
+}
